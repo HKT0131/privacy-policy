@@ -7,7 +7,7 @@
 <style>
 body { font-family: sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333; }
 h1 { color: #1e3c72; border-bottom: 2px solid #1e3c72; padding-bottom: 8px; }
-h2 { color: #2a5298; margin-top: 30px; }
+h2 { color: #2a5298; margin-top: 30px; scroll-margin-top: 16px; }
 h3 { color: #333; margin-top: 20px; margin-bottom: 6px; }
 .box { background: #f4f7f6; padding: 15px; border-radius: 8px; }
 .appname { color: #1e3c72; }
@@ -16,7 +16,7 @@ h3 { color: #333; margin-top: 20px; margin-bottom: 6px; }
 <body>
 <h1>サポート&プライバシーポリシー</h1>
 <p>本ページは、開発者が提供する各アプリ共通のサポート窓口およびプライバシーポリシーです。</p>
-<h2 class="appname">進数ノック (RadixDrill)</h2>
+<h2 class="appname" id="radixdrill">進数ノック (RadixDrill)</h2>
 <div class="box">
 <h3>プライバシーポリシー</h3>
 <p>本アプリ自体は、ユーザーの個人情報(氏名、メールアドレス、端末識別子など)を収集・保持することはありません。学習の進捗データは、お使いの端末内にのみ保存されます。</p>
@@ -24,7 +24,7 @@ h3 { color: #333; margin-top: 20px; margin-bottom: 6px; }
 <h3>広告非表示(買い切り課金)について</h3>
 <p>本アプリでは、広告を非表示にするアプリ内課金(買い切り)をご用意しています。この課金は、アプリの継続的な開発・保守運営を目的とした任意のオプションであり、学習に必要な機能はすべて無料範囲でご利用いただけます。</p>
 </div>
-<h2 class="appname">ロジックサーキット (Logic Circuit Lab)</h2>
+<h2 class="appname" id="logic-circuit">ロジックサーキット (Logic Circuit Lab)</h2>
 <div class="box">
 <h3>プライバシーポリシー</h3>
 <p>本アプリ自体は、ユーザーの個人情報(氏名、メールアドレス、端末識別子など)を収集・保持することはありません。作成した回路データやアプリの利用進捗は、お使いの端末内にのみ保存されます。</p>
@@ -32,7 +32,7 @@ h3 { color: #333; margin-top: 20px; margin-bottom: 6px; }
 <h3>広告非表示(買い切り課金)について</h3>
 <p>本アプリでは、広告を非表示にするアプリ内課金(買い切り)をご用意しています。この課金は、アプリの継続的な開発・保守運営を目的とした任意のオプションであり、学習に必要な機能はすべて無料範囲でご利用いただけます。</p>
 </div>
-<h2 class="appname">WindsTuner</h2>
+<h2 class="appname" id="windstuner">WindsTuner</h2>
 <div class="box">
 <h3>プライバシーポリシー</h3>
 <p>本アプリ自体は、ユーザーの氏名やメールアドレスなど、個人を特定できる情報を収集・保持することはありません。調・度数・楽器の選択などの設定情報や練習の記録は、お使いの端末内にのみ保存されます。</p>
@@ -45,7 +45,7 @@ h3 { color: #333; margin-top: 20px; margin-bottom: 6px; }
 <h3>広告非表示(買い切り課金)について</h3>
 <p>本アプリでは、広告を非表示にするアプリ内課金(買い切り)をご用意しています。この課金は、アプリの継続的な開発・保守運営を目的とした任意のオプションであり、チューニング・メトロノームなど学習に必要な機能はすべて無料範囲でご利用いただけます。</p>
 </div>
-<h2 class="appname">QuizJet</h2>
+<h2 class="appname" id="quizjet">QuizJet</h2>
 <div class="box">
 <h3>プライバシーポリシー</h3>
 <p>本アプリは外部サーバーを持たず、開発者がユーザーの情報を収集・保持することはありません。解析SDK・広告SDK・トラッキングの仕組みも入れていません。作成者名やニックネーム、作成した問題セット、配信の記録、参加したクイズの回答履歴は、お使いの端末内にのみ保存されます。</p>
@@ -74,7 +74,7 @@ h3 { color: #333; margin-top: 20px; margin-bottom: 6px; }
 <p>本アプリでは、広告の非表示とAIお題生成の拡張を目的とした自動更新サブスクリプション(スタンダード / プロ、それぞれ月額・年額)をご用意しています。学習に必要な機能は、すべて無料の範囲でご利用いただけます。</p>
 <p>決済とサブスクリプションの管理はApple(App Store)が行い、本アプリは契約の有効・無効の判定のみを端末内で行います。開発者がクレジットカード情報などの決済情報を取得することはありません。期間終了の24時間前までに解約されない場合、同じ期間で自動更新されます。解約はiOSの「設定」＞ Apple ID ＞「サブスクリプション」、またはアプリ内の設定画面から行えます。利用規約はAppleの標準EULA(<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Apple License Agreement</a>)に従います。</p>
 </div>
-<h2>サポート・お問い合わせ</h2>
+<h2 id="support">サポート・お問い合わせ</h2>
 <p>不具合のご報告、ご質問、ご要望がございましたら、X（旧Twitter）のDMまたはリプライにてご連絡ください。</p>
 <ul>
     <li>公式X（旧Twitter）: <a href="https://x.com/study_proof" target="_blank">@study_proof</a></li>
